@@ -18,3 +18,7 @@ makedocs(;
 
     ],
 )
+
+deploydocs(
+    repo = "github.com/NTHU-YiPing-Huang/Stat_Mech_II_NTHU.jl.git",
+)
