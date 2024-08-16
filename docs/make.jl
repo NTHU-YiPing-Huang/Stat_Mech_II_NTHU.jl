@@ -1,6 +1,7 @@
 using Stat_Mech_II_NTHU
 using Documenter
 
+
 DocMeta.setdocmeta!(Stat_Mech_II_NTHU, :DocTestSetup, :(using Stat_Mech_II_NTHU); recursive=true)
 
 makedocs(;
@@ -12,10 +13,7 @@ makedocs(;
         assets=String[],
     ),
     pages=[
-        "Home" => "index.md",
-        "Ginsburg Landau Theory" => "Ginsburg_Landau_Theory.md",
-        "Chapter 2" => "chapter_2.md",
-
+        "Syllabus" => "syllabus.md",
     ],
 )
 
